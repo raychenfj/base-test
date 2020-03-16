@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "build": "rm -rf ./dist && tsc -d --outDir ./dist"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "name": "base-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/raychenfj/base-test",
+  "author": "raychenfj <chenfengjun@qiniu.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
